@@ -1,5 +1,13 @@
+/* IMPORTS */
+/* Scroll down icon css import */
+@import url('scroll-down.css');
+/* Bootstrap Carousel Override */
+@import url('bootstrap-oberrides.css');
+/* Base element styles */
+@import url('base-element-style.css');
+/* END */
 /* Mobile Header Style*/
-header{
+header {
     width: 100%;
     height: 70px;
     position: sticky;
@@ -8,24 +16,29 @@ header{
     /* background-color: yellow; */
     border-bottom: 10px dotted yellow;
     background: white;
+    z-index: 100;
 }
-.logo-image{
+
+.logo-image {
     position: relative;
     width: 140px;
     margin: 0 auto;
 }
-.logo-image img{
+
+.logo-image img {
     width: 100%;
     margin-top: 7px;
 }
-.hamburger{
+
+.hamburger {
     position: absolute;
     width: 50px;
     height: 50px;
     top: 20px;
     right: 0;
 }
-.hamburger span{
+
+.hamburger span {
     background: black;
     height: 3px;
     width: 30px;
@@ -33,4 +46,6 @@ header{
     margin: 5px;
 }
 
-body{height: 1000px;}
+.reservation .subtitle{
+    margin-bottom: 0;
+}
