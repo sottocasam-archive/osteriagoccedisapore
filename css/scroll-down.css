@@ -2,7 +2,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 100;
+    z-index: 90;
 }
 
 .field {
@@ -17,7 +17,7 @@
 .mouse {
     width: 25px;
     height: 45px;
-    border: 2px solid #333;
+    border: 2px solid var(--home-hero);
     border-radius: 60px;
     position: relative;
 }
@@ -30,7 +30,7 @@
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #333;
+    background-color: var(--home-hero);
     border-radius: 50%;
     opacity: 1;
     animation: wheel 2s infinite;
@@ -54,7 +54,7 @@
 .scroll {
     width: 60px;
     height: 60px;
-    border: 2px solid #333;
+    border: 2px solid var(--home-hero);
     border-radius: 50%;
     position: relative;
     animation: down 1.5s infinite;
@@ -68,8 +68,8 @@
     left: 18px;
     width: 18px;
     height: 18px;
-    border-left: 2px solid #333;
-    border-bottom: 2px solid #333;
+    border-left: 2px solid var(--home-hero);
+    border-bottom: 2px solid var(--home-hero);
     transform: rotate(-45deg);
 }
 
@@ -104,7 +104,7 @@
 .arrow {
     width: 0;
     height: 40px;
-    border: 1px solid #333;
+    border: 1px solid var(--home-hero);
     position: relative;
     animation: scroll 1.5s infinite;
     -webkit-animation: scroll 1.5s infinite;
@@ -120,7 +120,7 @@
     height: 10px;
 
     /* triangle */
-    border-top: 10px solid #333;
+    border-top: 10px solid var(--home-hero);
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
 }

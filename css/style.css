@@ -5,6 +5,7 @@
 @import url('bootstrap-oberrides.css');
 /* Base element styles */
 @import url('base-element-style.css');
+
 /* END */
 /* Mobile Header Style*/
 header {
@@ -46,6 +47,40 @@ header {
     margin: 5px;
 }
 
-.reservation .subtitle{
+.reservation .subtitle {
     margin-bottom: 0;
+}
+
+/* tmp */
+@media (max-width: 768px) {
+    .menu {
+        transition: all 1s cubic-bezier(.215, .61, .355, 1);
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background: #D2BB5B;
+        height: 100vh;
+        padding-top: 80px;
+        z-index: 10;
+        width: 100%;
+    }
+}
+
+.menu__open {
+    right: -40%;
+}
+
+.menu li {
+    display: block;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu li a {
+    color: white;
+}
+
+.hamburger__open span {
+    background: white;
 }
