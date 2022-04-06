@@ -56,7 +56,7 @@ header {
 } */
 
 .menu-container {
-    position: absolute;
+    position: fixed;
 }
 
 .menu-btn {
