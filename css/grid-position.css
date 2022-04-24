@@ -1,4 +1,4 @@
-#mainContainer {
+#homeContainer {
     display: grid;
     min-height: 100vh;
     grid-template-columns: 1fr;
@@ -11,6 +11,19 @@
     ;
     gap: 20px;
 }
+ #localeContainer {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr .5fr .3fr .2fr;
+    grid-template-areas:
+        "carousel"
+        "paragraph"
+        "reservation"
+        "footer"
+    ;
+    gap: 20px;
+ }
 .header{
     grid-area: header;
 }

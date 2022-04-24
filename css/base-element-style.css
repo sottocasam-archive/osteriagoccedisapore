@@ -12,6 +12,8 @@
     --gold: #D2BB5B;
 }
 
+*{z-index: 1;}
+
 html {
     scroll-behavior: smooth;
 }
