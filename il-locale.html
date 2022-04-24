@@ -36,19 +36,80 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/il-locale.html">Il Locale</a></li>
-                    <li><a href="">La Brigata</a></li>
+                    <li><a href="/il-locale.html#la_brigata">La Brigata</a></li>
                     <li><a href="">Il Menu</a></li>
                 </ul>
             </div>
         </div>
-        
-        <div class="dist-from-top"></div>
-        <h1 class="title">chi siamo</h1>
+        <h1 class="title dist-from-top title1">la brigata</h1>
+
+        <div class="img-paragraph ph1">
+                <img src="//unsplash.it/400" alt="">
+            <div class="paragraph">
+                <h1 class="subtitle">Some Text</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus, autem at dolore
+                    officiis a animi quos iste expedita alias id cum enim quas quis minima beatae aliquam. Harum,
+                    quaerat.</p>
+            </div>
+        </div>
+
+        <div class="img-paragraph ph2">
+                <img src="//unsplash.it/400" alt="">
+            <div class="paragraph">
+                <h1 class="subtitle">Some Text</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus, autem at dolore
+                    officiis a animi quos iste expedita alias id cum enim quas quis minima beatae aliquam. Harum,
+                    quaerat.</p>
+            </div>
+        </div>
+        <div class="title2">
+            <a name="la_brigata"></a>
+            <h1 class="title dist-from-top">chi siamo</h1>
+        </div>
+        <div class=" emp emp1">
+            <div class="emp__image">
+                <img class="center-img blackwhite" src="/img/Emanuele Ornagi 2.png"
+                    alt="Emanuele Ornaghi">
+            </div>
+            <div class="emp__content">
+                <p class="subtitle center">Emanuele Ornaghi</p>
+                <p>
+                    Sommelier professionista dal 2015, Emanuele è fortemente legato al Lago di Como. Dopo alcune
+                    esperienze in ristoranti ed hotel di lusso in Inghilterra e Svizzera, tra cui il Grand Hotel
+                    Kempinski di Sankt Moritz, ha costruito la sua carriera sul nostro lago. Tra i nomi con cui ha
+                    lavorato possiamo trovare il Grand Hotel Imperiale di Moltrasio, il Grand Hotel Tremezzo e il Grand
+                    Hotel Villa Serbelloni. Negli ultimi anni si è impegnato come Sommelier e Maitre al ristorante Alle
+                    Darsene di Loppia di Bellagio, per poi decidere di dedicarsi al proprio progetto insieme a Stefano.
+                    <br>
+                    Con un gusto raffinato, sopraffino e sempre attento alle novità, Emanuele saprà deliziare il vostro
+                    palato con una lista di vini d’eccellenza.
+                </p>
+            </div>
+        </div>
+        <div class="emp emp2">
+            <div class="emp__image">
+                <img class="center-img blackwhite" src="/img/Stefano-Invernizzi.jpg"
+                    alt="Stefano Invernizzi">
+            </div>
+            <div class="emp__content">
+                <p class="subtitle center">Stefano Invernizzi</p>
+                <p>
+                    Dopo diverse esperienze all’estero, Stefano si forma come Executive Chef in Svizzera, dove ha
+                    l’opportunità di lavorare per nomi importanti nel mondo della ristorazione come Reto Mathis. <br>
+                    Nel suo curriculum ci sono nomi di hotel e ristoranti d’eccezione come il Meirei e il Schweizerhof
+                    di Sankt Moritz, ma anche nomi italiani come il Florence di Bellagio, dove incontra il suo mentore
+                    Pierpaolo Caprioglio. <br>
+                    Declinando la sua esperienza in cucina ed arricchendola con la sua passione, Stefano saprà
+                    soddisfare ogni tipo di palato: dall’amante della cucina tradizionale locale a chi cerca qualcosa di
+                    sfizioso e innovativo da assaggiare. <br>
+                </p>
+            </div>
+        </div>
 
         <div class="paragraph reservation">
             <div class="btn-container">
-                <a href="#" class="button"><i class="fa fa-phone"></i> Chiamaci</a>
-                <a href="#" class="button">Richiedi il tuo tavolo</a>
+                <a href="tel:+39 031 612 4407" class="button"><i class="fa fa-phone"></i> Chiamaci</a>
+                <a href="/richiedi-il-tuo-tavolo.html" class="button">Richiedi il tuo tavolo</a>
             </div>
         </div>
         <footer>
@@ -85,7 +146,7 @@
                 } else {
                     menuBtn.classList.remove('open');
                     menu.classList.add('animate__zoomOutLeft');
-                    setTimeout(() => {menu.classList.remove('menu__open','animate__zoomInLeft');}, 1000);
+                    setTimeout(() => { menu.classList.remove('menu__open', 'animate__zoomInLeft'); }, 1000);
                     menuOpen = false;
                 }
             });

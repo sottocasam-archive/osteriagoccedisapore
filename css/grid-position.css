@@ -11,20 +11,26 @@
     ;
     gap: 20px;
 }
- #localeContainer {
+
+#localeContainer {
     display: grid;
     min-height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr .5fr .3fr .2fr;
+    grid-template-rows: .25fr .5fr .5fr .25fr 1.5fr 1.5fr .3fr .1fr;
     grid-template-areas:
-        "carousel"
-        "paragraph"
+        "title1"
+        "ph1"
+        "ph2"
+        "title2"
+        "emp1"
+        "emp2"
         "reservation"
         "footer"
     ;
     gap: 20px;
- }
-.header{
+}
+
+header {
     grid-area: header;
 }
 
@@ -32,6 +38,34 @@
     /* background-color: greenyellow; */
     grid-area: carousel;
     height: 100vh;
+}
+
+.ph1 {
+    grid-area: ph1;
+}
+
+.ph2 {
+    grid-area: ph2;
+}
+
+.emp1 {
+    grid-area: emp1;
+}
+
+.emp2 {
+    grid-area: emp2;
+}
+
+.title {
+    grid-area: title;
+}
+
+.title1 {
+    grid-area: title1;
+}
+
+.title2 {
+    grid-area: title2;
 }
 
 .paragraph {

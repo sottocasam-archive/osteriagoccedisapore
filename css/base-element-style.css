@@ -12,7 +12,9 @@
     --gold: #D2BB5B;
 }
 
-*{z-index: 1;}
+* {
+    z-index: 1;
+}
 
 html {
     scroll-behavior: smooth;
@@ -91,9 +93,24 @@ b {
     text-align: center;
 }
 
+/* PARAGRAPH */
 .paragraph {
     padding: 5px 30px;
 }
+
+.img-paragraph {
+    width: 100%;
+}
+
+.img-paragraph .subtitle {
+    margin-bottom: 0;
+}
+
+.img-paragraph img {
+    width: 100%;
+    padding: 0 10px 50px 10px;
+}
+
 
 /* Buttons */
 .btn-container {
@@ -111,4 +128,14 @@ b {
     font-weight: 900;
     text-transform: uppercase;
     margin: 3%;
+}
+
+img.blackwhite {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+    /* Fix per Explorer */
 }
