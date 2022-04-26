@@ -15,7 +15,7 @@
 @import url('grid-position.css');
 /* END */
 
-/* Mobile Header Style*/
+/* HEADER STYLE */
 header {
   width: 100%;
   height: 70px;
@@ -24,7 +24,6 @@ header {
   left: 0;
   /* background-color: yellow; */
   border-bottom: 5px solid var(--gold);
-  ;
   background: white;
   z-index: 100;
 }
@@ -61,6 +60,9 @@ header {
     display: block;
     margin: 5px;
 } */
+
+
+/* MENU */
 
 .menu-container {
   position: fixed;
@@ -122,7 +124,6 @@ header {
   transform: rotate(-45deg) translate(35px, 35px);
 }
 
-/* Menu */
 .menu {
   border: 2px solid var(--gold);
   background: white;
@@ -159,6 +160,48 @@ header {
   font-size: 20px;
   text-transform: uppercase;
   color: black;
+}
+
+@media screen and (min-width:500px) {
+
+  /* DESKTOP SIDE */
+  header {
+    display: inline-flex;
+  }
+
+  .logo-image {
+    left: 40px;
+    margin: 0;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu-container {
+    z-index: 100;
+    width: 40%;
+    right: 0;
+    background: transparent;
+    border-bottom:5px solid var(--gold);
+  }
+
+  .menu {
+    width: 100%;
+    border: 0;
+  }
+
+  .menu ul {
+    display: inline-flex;
+    padding: 7.5px;
+  }
+  .menu ul li{
+    padding:0 20px;
+  }
+  .menu ul li a:hover{
+    text-decoration: underline;
+    text-decoration
+  }
 }
 
 /* EMP */
@@ -224,7 +267,7 @@ footer {
 
 /* REQUEST */
 
-.request-form{
+.request-form {
   width: 80%;
   margin: 0 auto;
   display: flex;

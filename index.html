@@ -30,8 +30,8 @@
                     <div class="menu-btn__burger"></div>
                 </div>
             </div>
-        </header>
-        <div class="menu-container animate__animated animate__zoomOutLeft" id="menu">
+            
+        <div class="menu-container animate__animated" id="menu">
             <div class="menu">
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -41,6 +41,7 @@
                 </ul>
             </div>
         </div>
+        </header>
         <div class="carousel">
             <div id="homeCarouse" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -111,6 +112,9 @@
             const menuBtn = document.querySelector('.menu-btn');
             const menu = $('#menu')[0];
             let menuOpen = false;
+
+            if(innerWidth < 500) menu.classList.add('animate__zoomOutLeft');
+
             menuBtn.addEventListener('click', () => {
                 if (!menuOpen) {
                     menuBtn.classList.add('open');
