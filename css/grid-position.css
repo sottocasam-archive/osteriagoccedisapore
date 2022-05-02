@@ -33,7 +33,7 @@
 @media (min-width: 768px) {
     #localeContainer {
         grid-template-columns: 2fr;
-        grid-template-rows: .25fr .5fr .5fr .25fr 1.5fr 1.5fr .3fr .1fr;
+        grid-template-rows: .25fr .5fr .5fr .25fr .5fr .5fr .3fr .1fr;
         grid-template-areas:
             "title1"
             "ph1" "ph2"

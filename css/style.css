@@ -183,7 +183,7 @@ header {
     width: 40%;
     right: 0;
     background: transparent;
-    border-bottom:5px solid var(--gold);
+    border-bottom: 5px solid var(--gold);
   }
 
   .menu {
@@ -195,12 +195,13 @@ header {
     display: inline-flex;
     padding: 7.5px;
   }
-  .menu ul li{
-    padding:0 20px;
+
+  .menu ul li {
+    padding: 0 20px;
   }
-  .menu ul li a:hover{
+
+  .menu ul li a:hover {
     text-decoration: underline;
-    text-decoration
   }
 }
 
@@ -230,6 +231,28 @@ header {
 .emp img {
   width: 100%;
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+
+  .emp,
+  .img-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .emp__content,
+  .emp__content,
+  .img-paragraph img,
+  .pharagraph {
+    flex: 1 1 150px;
+  }
+
+  .img-paragraph img{
+    width: 50%;
+  }
+
+
 }
 
 /* FOOTER */
