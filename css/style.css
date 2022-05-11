@@ -234,22 +234,21 @@ header {
 }
 
 @media (min-width: 768px) {
-
-  .emp,
-  .img-paragraph {
+  
+  .img-paragraph{
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-  }
-
-  .emp__content,
-  .emp__content,
-  .img-paragraph img,
-  .pharagraph {
-    flex: 1 1 150px;
+    width:80%;
+    margin: 0 auto;
   }
 
   .img-paragraph img{
-    width: 50%;
+    width:500px;
+  }
+
+  .emp__image img{
+    width:80%;
+    margin: 0 auto;
   }
 
 
