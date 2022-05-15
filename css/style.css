@@ -213,6 +213,7 @@ header {
 
 .emp__image {
   padding-bottom: 50px;
+  display: flex;
 }
 
 .emp__content {
@@ -232,6 +233,12 @@ header {
   border-radius: 50%;
 }
 
+.gold-circle {
+  position: absolute;
+  margin: -5px -5px;
+  width: 93% !important;
+}
+
 @media (min-width: 768px) {
   .img-paragraph {
     align-items: center;
@@ -245,7 +252,7 @@ header {
     width: 45%;
   }
 
-  .emp__image{
+  .emp__image {
     display: flex;
     padding-bottom: 100px;
   }
@@ -305,11 +312,11 @@ footer {
 }
 
 /* SHOW PDF */
-.show-pdf{
+.show-pdf {
   display: flex;
   max-width: 100%;
   min-width: 50%;
-  height:80vh;
+  height: 80vh;
   margin: 0 auto;
 }
 
