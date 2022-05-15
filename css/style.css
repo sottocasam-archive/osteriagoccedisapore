@@ -322,6 +322,11 @@ footer {
   margin: 0 auto;
 }
 
+/* DEBUG */
+.reservation a:last-child{
+  display: none;
+}
+
 label,
 input {
   display: block;
