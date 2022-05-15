@@ -273,22 +273,16 @@ footer {
   border: 5px solid var(--gold);
   width: 90%;
   margin: 10px auto;
-  align-items: center;
-  justify-content: center;
-  vertical-align: center;
   font-size: 35px;
 }
 
 .social {
   width: 100%;
   text-align: center;
-  height: 100%;
-  vertical-align: center;
 }
 
 .social a {
   vertical-align: center;
-  height: 100%;
 }
 
 .social .fa,
