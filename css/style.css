@@ -262,9 +262,16 @@ header {
     margin: 0 auto;
   }
 
+  .gold-circle{
+    width: 27.5% !important;
+    position: absolute;
+    margin: -5px 8.5% !important;
+  }
+
   .img-paragraph .paragraph {
     padding: 0 100px;
   }
+  
 
 }
 
