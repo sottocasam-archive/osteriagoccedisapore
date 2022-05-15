@@ -47,10 +47,11 @@
     #menuContainer {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: .25fr .1fr;
+        grid-template-rows: .25fr .3fr .1fr;
         grid-template-areas:
             "title1"
             "show-pdf"
+            "reservation"
             "footer"
         ;
         gap: 20px;
