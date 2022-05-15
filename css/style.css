@@ -162,7 +162,7 @@ header {
   color: black;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:768px) {
 
   /* DESKTOP SIDE */
   header {
@@ -180,7 +180,6 @@ header {
 
   .menu-container {
     z-index: 100;
-    width: 40%;
     right: 0;
     background: transparent;
     border-bottom: 5px solid var(--gold);
@@ -234,23 +233,31 @@ header {
 }
 
 @media (min-width: 768px) {
-  
-  .img-paragraph{
+  .img-paragraph {
     align-items: center;
     display: flex;
-    width:80%;
+    width: 80%;
     margin: 0 auto;
   }
 
-  .img-paragraph img{
-    width:500px;
+  .img-paragraph img {
+    padding: 0 50px;
+    width: 45%;
   }
 
-  .emp__image img{
-    width:80%;
+  .emp__image{
+    display: flex;
+    padding-bottom: 100px;
+  }
+
+  .emp__image img {
+    width: 60%;
     margin: 0 auto;
   }
 
+  .img-paragraph .paragraph {
+    padding: 0 100px;
+  }
 
 }
 
@@ -297,11 +304,9 @@ footer {
   justify-content: center;
 }
 
-
-
-
-
-
+/* SHOW PDF */
+.show-pdf{
+}
 
 label,
 input {
