@@ -306,6 +306,11 @@ footer {
 
 /* SHOW PDF */
 .show-pdf{
+  display: flex;
+  max-width: 100%;
+  min-width: 50%;
+  height:80vh;
+  margin: 0 auto;
 }
 
 label,
