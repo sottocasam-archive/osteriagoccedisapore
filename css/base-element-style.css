@@ -111,6 +111,11 @@ b {
     padding: 0 10px 50px 10px;
 }
 
+@media screen and (min-width: 768px) {
+    .paragraph{
+        padding: 30px 15%;
+    }
+}
 
 /* Buttons */
 .btn-container {

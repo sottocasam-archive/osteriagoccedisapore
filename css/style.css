@@ -317,13 +317,13 @@ footer {
 .show-pdf {
   display: flex;
   max-width: 100%;
-  min-width: 50%;
+  min-width: 45%;
   height: 67vh;
   margin: 0 auto;
 }
 @media screen and (min-width:768px) {
   .show-pdf{
-    height: 80vh;
+    height: 100vh;
   }
 }
 
