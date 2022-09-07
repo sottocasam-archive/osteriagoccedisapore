@@ -26,16 +26,16 @@
 }
 
 .carousel .carousel-inner .bg1 {
-    background-image: url('//unsplash.it/1200');
+    background-image: url('../img/home_slider_one.jpeg');
     background-position: center top;
 }
 
 .carousel .carousel-inner .bg2 {
-    background-image: url('//unsplash.it/1100');
+    background-image: url('../img/home_slider_two.jpeg');
     background-position: center center;
 }
 
 .carousel .carousel-inner .bg3 {
-    background-image: url('//unsplash.it/1300');
+    background-image: url('../img/home_slider_three.jpeg');
     background-position: center bottom;
 }
